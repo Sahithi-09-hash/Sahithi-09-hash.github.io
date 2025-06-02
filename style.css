@@ -172,8 +172,11 @@ span.b {
     width: 100%;
     max-width: 200px;
   }
-  #search{
-      margin-bottom:20px;
-  }
+  .home-section {
+  background-color: orangered;
+  color: white;
+  margin-top:20px;
+}
+ 
 }
 
