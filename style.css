@@ -172,5 +172,8 @@ span.b {
     width: 100%;
     max-width: 200px;
   }
+  #search{
+      margin-bottom:20px;
+  }
 }
 
