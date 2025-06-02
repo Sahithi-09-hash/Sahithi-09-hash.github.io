@@ -152,4 +152,25 @@ span.b {
   .footer {
     padding: 15px;
   }
+
+ 
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-text {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+    color: white;
+  }
+
+  .learn-more {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+  }
 }
+
