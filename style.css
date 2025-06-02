@@ -2,11 +2,10 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fff;
 }
 
 .navbar {
-  background-color: black;
+  background-color: #333;
   color: white;
   padding: 1rem 0;
 }
@@ -31,31 +30,9 @@ body {
   text-decoration: none;
 }
 
-span.a {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
-  margin-left: 150px;
-}
-
-span.b {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(108, 177, 5);
-}
-
-.view {
-  background-color: rgb(195, 54, 3);
-  color: whitesmoke;
-  border-radius: 10px;
-  width: 250px;
-  height: 30px;
-  float: right;
-  margin-top: 10px;
-  margin-right: 250px;
-}
-
 .viewpage {
   padding: 60px 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   border-radius: 10px;
   margin-top: 40px;
@@ -63,8 +40,7 @@ span.b {
 }
 
 .home-section {
-  background-color: orangered;
-  color: white;
+  background-color: #e3f2fd;
 }
 
 .about-section {
@@ -75,25 +51,6 @@ span.b {
   background-color: #e8f5e9;
 }
 
-.intro-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 30px;
-}
-
-.intro-text {
-  max-width: 500px;
-}
-
-.learn-more {
-  background-color: rgb(108, 177, 5);
-  color: white;
-  height: 50px;
-  width: 150px;
-  font-size: 15px;
-  border: none;
-}
-
 .footer {
   background-color: #f4f4f4;
   text-align: center;
@@ -101,29 +58,29 @@ span.b {
   margin-top: 40px;
 }
 
-.column, .columna {
-  float: left;
-  width: 250px;
-  height: auto;
-  margin: 1px;
-  padding: 10px;
-  margin-left: 50px;
-}
+@media (max-width: 768px) {
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding-top: 10px;
+  }
 
-.gray {
-  background-color: rgb(62, 56, 56);
-  color: gray;
-  padding: 20px;
-}
+  .nav-links li {
+    width: 100%;
+  }
 
-.d {
-  font-size: 18px;
-  display: block;
-  margin-top: 10px;
+  .viewpage {
+    padding: 40px 10px;
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
 }
