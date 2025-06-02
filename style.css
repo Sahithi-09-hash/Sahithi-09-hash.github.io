@@ -51,6 +51,7 @@ span.b {
   float: right;
   margin-top: 10px;
   margin-right: 250px;
+  margin-bottom: 20px;;
 }
 
 .viewpage {
@@ -171,11 +172,7 @@ span.b {
     margin-top: 20px;
     width: 100%;
     max-width: 200px;
-  }
-  .home-section {
-  background-color: orangered;
-  color: white;
-  margin-top:20px;
+
 }
  
 }
