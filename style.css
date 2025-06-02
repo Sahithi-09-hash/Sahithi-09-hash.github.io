@@ -51,7 +51,8 @@ span.b {
   float: right;
   margin-top: 10px;
   margin-right: 250px;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
+  ;
 }
 
 .viewpage {
@@ -102,7 +103,8 @@ span.b {
   margin-top: 40px;
 }
 
-.column, .columna {
+.column,
+.columna {
   float: left;
   width: 250px;
   height: auto;
@@ -128,6 +130,7 @@ span.b {
   display: block;
   margin-top: 10px;
 }
+
 @media (max-width: 768px) {
   .navbar .container {
     flex-direction: column;
@@ -148,13 +151,14 @@ span.b {
   .viewpage {
     padding: 40px 10px;
     margin-top: 20px;
+    margin-top: 50px;
   }
 
   .footer {
     padding: 15px;
   }
 
- 
+
   .intro-container {
     flex-direction: column;
     align-items: center;
@@ -173,7 +177,6 @@ span.b {
     width: 100%;
     max-width: 200px;
 
-}
- 
-}
+  }
 
+}
